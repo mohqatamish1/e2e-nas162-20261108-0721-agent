@@ -2,7 +2,7 @@
   "name": "express-fixture",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",
+    "start": "node changed-entry.js",
     "build": "node build.js"
   },
   "dependencies": {
