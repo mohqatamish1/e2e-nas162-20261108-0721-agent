@@ -1,0 +1,1 @@
+const express = require("express"); const app = express(); const configured = Boolean(process.env.EXTERNAL_API_TOKEN); app.get("/",(_req,res) => res.status(configured?200:503).json({fixture:"external-secret",configured})); app.listen(3000,"0.0.0.0");

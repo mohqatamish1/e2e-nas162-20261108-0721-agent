@@ -1,0 +1,6 @@
+services:
+  app:
+    image: node:22-alpine
+    privileged: true
+    ports: ["3000:3000"]
+    command: ["node", "-e", "require('http').createServer((q,s)=>s.end('unsafe')).listen(3000)"]

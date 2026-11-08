@@ -1,0 +1,1 @@
+Disposable NAS-162 synthetic deployment fixtures. Reuses Nashir Auto fixtures and adds only acceptance-specific deployment errors. Dummy inputs only; no customer or proprietary application data. Run 20261108T0721Z-nas162.

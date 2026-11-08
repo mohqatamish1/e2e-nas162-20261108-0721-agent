@@ -1,0 +1,1 @@
+const express=require("express"); const app=express(); app.get("/",(_req,res)=>res.status(500).json({fixture:"source-stop",bug:"application code deliberately returns failure"})); app.listen(3000,"0.0.0.0");

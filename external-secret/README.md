@@ -1,0 +1,1 @@
+EXTERNAL_API_TOKEN is an externally issued runtime secret. It must be provided by the operator and never invented or sent to an AI provider. This fixture checks presence only and makes no external request.

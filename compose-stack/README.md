@@ -1,0 +1,1 @@
+Three selected services: frontend calls backend, backend uses the selected PostgreSQL database. PostgreSQL data belongs to pgdata and must persist across redeployment. The tests service has profile test and must be excluded. No topology, exposure, volume or source changes are required.

@@ -1,0 +1,1 @@
+const express=require("express"),fs=require("fs"); const app=express(); app.get("/",(_req,res)=>res.json({fixture:"build-scope",...JSON.parse(fs.readFileSync("built-marker.json"))})); app.listen(3000,"0.0.0.0");
